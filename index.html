@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #nav_bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 700px;
+            padding: 20px 0px;
+
+        }
+
+        #nav_menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 20px 1px;
+
+
+        }
+
+        #stay {
+            
+            color: grey;
+            font-size: 20px;
+        }
+
+        #logos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 0px 50px;
+            border-radius: 50px;
+        }
+
+            #logo {
+
+                height: 30px;
+                width: 20px;
+                
+            
+            }
+            #home{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 2px black solid;
+                gap: 20px;
+                padding: 200px 100px;
+                background:url(background\ 1.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+               
+                #home_one{
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: white;
+                }
+                #home_two{
+                    font-size: 20px;
+                    width: 600px;
+                    text-align: center;
+                    align-items: center;
+                    color: white;
+                }
+                #home_three{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: white;
+                    border: 10px ;
+                    color: black;
+                    border: 10px black solid;
+                    
+                    
+                    #inp{
+                        padding: 5px 100px;
+                        border: 5px black solid;
+                        font-size: 20px;
+                        color: black;
+                        background-color: white;
+
+                    }
+                    #sub{
+                        padding: 11px 30px ;
+                        border-radius: 5px;
+                        color: white;
+                        background-color: blue;
+                        cursor: pointer;
+                        background-attachment: fixed;
+                        font-size: 15px;
+                        
+
+                    }
+                    
+                }
+            }
+            #note{
+                        font-size: 15px;
+                        color: white;
+                        
+                    }
+                    #triple{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    background-color:rgb(239, 232, 232);
+                    }
+                    #t1{
+                        display: flex;
+                        flex-direction: row;
+                        padding: 10px 20px;
+                    }
+                    #log{
+                        height: 100px ;
+                        width: 100 px;
+                        padding: 10px 20px;
+                        border-radius: 100px;    
+                    }
+                    #para{
+                        font-size: 25px;
+                        padding: 50px 5px;
+                    }
+                    #one{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 20px;
+                        padding: 10px 10px;
+                        gap: 10px;
+                        
+                    }
+                    #two{
+                        display: flex;
+                        flex-direction: row;
+                        padding:30px 50px ;
+                       
+                        
+                    
+                        
+                    }
+                    #apple{
+                        font-size: 30px;
+                        font-weight: bold;
+                        
+                        
+                    }
+                    #ant{
+                        font-size: 25px;
+                        color: gray;
+                        
+                        
+
+                    }
+                    #art{
+                        font-size: 20px;
+                        padding: 15px 30px;
+                        color: rgb(182, 156, 156);
+                        
+                        
+                    }
+                    #four{
+                        display: flex;
+                        flex-direction: row;
+                        padding:30px 50px ;
+                    
+                        
+                        
+                    }
+                    
+                    #ball{
+                        
+                        height: 400px;
+                        width: 400px;
+                        padding-right: 130px;
+                    
+                    }
+                    #three{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        padding: 10px 70px;
+                    }
+                    #ball1{
+                        height: 400px;
+                        width: 400px;
+                        padding: 0px 120px;
+                        
+                    }
+                    #bat{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        gap: 15px;
+                        color: rgba(94, 77, 77, 0.726);
+
+                    }
+                    #bird{
+                        font-weight: bold;
+                        font-size: 25px;
+                        
+                        padding: 5px 0px;
+                        
+                    }
+                    #byte{
+                        
+                        font-size: 20px;
+                    }
+                    #boom{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 20px 200px;
+                        
+                        
+                    }
+                    #boom1{
+                        padding: 10px 70px;
+                    }
+                    #cat{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px;
+                       padding: 20px 400px;
+                        background-color: rgba(235, 229, 229, 0.885);
+                        
+                    }
+                    #c1{
+                        font-weight: bold;
+                        font-size: 25px;
+                        
+                        padding: 10px 10px;
+                        color: rgba(126, 118, 118, 0.901);
+                    }
+                    #c2{
+                        
+                        font-size: 15px;
+                        
+                        padding: 5px 10px;
+                        color: rgba(126, 118, 118, 0.901)
+
+                    }
+                    #pic{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: white;
+                    border: 10px ;
+                    color: black;
+                    gap: 50px;
+                    background-color:rgba(245, 236, 236, 0.858)
+                   
+                    }
+                    #pic1{
+                        padding: 20px 30px ;
+                        border: 2px rgba(126, 121, 121, 0.675);
+                        display: flex;
+                        flex-direction: row;
+                        background-attachment: fixed;
+                        font-size: 20px;
+                        padding: 30px 60px;
+                        width: 500px;    
+                        background-color: white; 
+                        gap: 20px; 
+                    }
+                    #id1{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px 0px;
+
+                    }
+                    #cc{
+                        border: 2px rgb(243, 236, 236) solid;
+                        width: 90px;
+                        padding: 0px 40px;
+                        background-color: rgba(238, 231, 231, 0.789);
+                        background-attachment: fixed;
+                        border-radius: 90%;
+
+                        
+                    }
+                    #dog{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                    }
+                    #deer{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 30px;
+                        font-weight: bold;
+                        
+                        
+                    }
+                    #d1{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                        font-size: 20px;
+                        
+
+                    }
+                    #d2{
+                        font-size: 25px;
+                        padding: 20px 200px;
+                        color: rgb(184, 172, 172);
+                    }
+                    
+                    #dd{
+                        
+                       width: 900px;
+                       margin-right: 100px;
+                       margin-right: 30px;
+                       
+                    }
+                    #bn{
+                        padding: 10px 40px;
+                        background-color: rgb(99, 99, 225);
+                        border-radius: 3px;
+                        margin-left: 70px;
+                        cursor: pointer;
+
+                    }
+                    #egg{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        background-color:rgba(238, 236, 230, 0.629);
+                        background-attachment: fixed;
+                        box-shadow: 1px 1px rgb(215, 209, 209);
+                        padding: 30px;
+                        
+                    }
+                    #e1{
+                        
+                        margin-right: 30px;
+                        color: grey;
+                    }
+                    
+
+                    
+                    #e3{
+                        padding: 3px;
+                        background-color: blue;
+                        border: 10px solid rgba(226, 220, 220, 0.985);
+                        border-radius: 3px;
+                        margin-left: 70px;
+                        
+                    } 
+    </style>
+</head>
+
+<body>
+    <div id="website">
+
+    <div id="main">
+        <div id="nav_bar">
+            <img src="logo1.png" alt="error">
+            <div id="nav_menu">
+                <div id="stay"> Stay connected</div>
+                <div id="logos">
+                    <img id="logo" src="face logo.jpeg" alt="error">
+                    <img id="logo" src="twitter logo.png" alt="error">
+                    <img id="logo" src="youtube logo.png" alt="error">
+
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <div id="home">
+        <div id="home_one">HTML YOUR BUNDLE HERE</div>
+        <div id="home_two">More than 10 unique HTML templates in one bundle isn't thatawesome with a lot of features and great design brought to you by PixFort.</div>
+        <div id="home_three">
+            <div id="inp">enter your email</div>
+            <button id="sub"> subscribe Now</button>
+        </div>
+        <div id="note">*Note: Bundle ends in two weeks from now.</div>
+
+    </div>
+    <div id="triple">
+        <div id="t1">
+            <img id="log" src="logo 4.png" alt="error">
+            <div id="para"><b>+1500</b> High quality video tutorials</div>
+        </div>
+        <div id="t1">
+            <img id="log" src="logo 3.png" alt="error">
+            <div id="para"><b>+40</b> Days Free trial demo subscribtion.</div>
+        </div>
+        <div id="t1">
+            <img id="log" src="logo 2.png" alt="error">
+            <div id="para"><b>+75 </b>New books from store.</div>
+        </div>
+    </div>
+    <div id="three">
+        <div id="two">
+            <div id="one">
+                <div id="apple">The most amazing thing is here</div>
+                <div id="ant">Our service is astonishingly thin and light.</div>
+                <div id="art">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <img id="ball" src="machine 1.png" alt="error">
+
+        </div>
+        <div id="four">
+            <img id="ball1" src="machine 2.png" alt="error">
+            <div id="one">
+            <div id="apple">Bring it to life again with us</div>
+            <div id="ant">Our service is astonishingly thin and light.</div>
+            <div id="art">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+        </div>
+        </div>
+        <div id="two">
+            <div id="one">
+                <div id="apple">Responsive ready wordpress</div>
+                <div id="ant">Our service is astonishingly thin and light.</div>
+                <div id="art">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <img id="ball" src="machine 3.png" alt="error">
+    </div>
+    <div id="bat">
+        <div id="bird">Great people trusted our services</div>
+        <div id="byte">great words from great people</div>
+        <div id="boom">
+            <img id="boom1" src="boom 1.png" alt="error">
+            <img id="boom1" src="boom 2.png" alt="error">
+            <img id="boom1" src="boom 3.png" alt="error">
+            <img id="boom1" src="boom 4.png" alt="error">
+        </div>
+        
+    </div>
+    <div id="cat">
+        <div id="c1">What our awesome clients say</div>
+        <div id="c2">great words from great people</div>
+        <div id="pic">
+            <div id="pic1">
+                <img id="cc" src="cc1.png" alt="error">
+                <div id="id">
+                    <div id="id1">Im a web designer, you guys are very inspiring I wish to see more work from maybe more freebies.</div>
+                    <img id="ccc" src="ccc1.png" alt="error"><span>via Envato.com</span>
+                </div>
+            </div>
+            <div<div id="pic1">
+                <img id="cc" src="cc2.png" alt="error">
+                <div id="id">
+                    <div id="id1">Great service with fast and relible support The design work and detail put into themes are great.</div>
+                    <img id="ccc" src="ccc1.png" alt="error"><span>via pixfort.com</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dog">
+        <div id="deer">
+            <div id="d1">
+                Are you ready for this?
+            </div>
+            <div id="d2">
+                More than 10,000 apps are waiting for you with awesome features and prices that will be great for you, 
+                join us now by entering you email and subscribe us now, wow.
+            </div>
+            <button id="bn">Subscribe Now</button>
+        </div>
+        <img id="dd" src="d1.png" alt="error">
+    </div>
+    <div id="egg">
+        <div id="e1">
+            All rights reserved Copyright © 2014 FLATPACK by <span style="color: orangered;">Sudheshna</span>
+        </div>
+        <div id="e1">
+            Your likes & share makes us happy!
+        </div>
+        <div id="e1">
+            <div id="e3">
+            
+                <img src="like.png" alt="error"><span style="color: white">Like</span>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+</div>
+</body>
+
+</html>
